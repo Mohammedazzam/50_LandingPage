@@ -1,0 +1,94 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+a{
+    color: #1f242d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ba2e45;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Start Reused Style */
+
+.container {
+    margin-inline: auto;
+    padding-inline: 15px;
+    max-width: 100%;
+}
+
+/* End Reused Style */
+
+
+/* Start Header */
+.header {
+    padding-block-start: 20px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.button-navbar {
+    font-size: 1.4rem;
+}
+
+.navbar {
+    position: fixed;
+    height: 100vh;
+    background-color: #238c6e;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-block-start: 40px;
+    padding-inline: 20px;
+}
+
+.navbar .container-logo {
+    margin-block-end: 20px;
+}
+
+.menu-link{
+    display: block;
+    margin-block-end:15px;
+    color: #fff;
+}
+
+.menu-link:hover{
+    color: #1f242D;
+}
+/* End Header */
